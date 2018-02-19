@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IRRMA" max_length="40" name="x_183573_irrma_irrma" type="collection">
+        <element label="CMS Completion Date" max_length="40" name="cms_completion_date_time" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pending Reason" max_length="40" name="pendingreason" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IR Action" max_length="40" name="u_ir_action" type="string">
+            <choice>
+                <element label="Auto Denied" sequence="0" value="auto denied"/>
+                <element label="Denied" sequence="1" value="denied"/>
+                <element label="Approved" sequence="2" value="approved"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Notes" max_length="1024" name="u_notes_list" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Payment Adjustment" max_length="3" name="u_payment_adjustment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Program Year" mandatory="true" max_length="4" name="u_program_year" type="string">
+            <choice>
+                <element label="2017" sequence="0" value="2017"/>
+                <element label="2018" sequence="1" value="2018"/>
+                <element label="2019" sequence="2" value="2019"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requestor First Name" max_length="40" name="u_requestor_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="assigned" label="Request Status" mandatory="true" max_length="17" name="u_request_status" type="string">
+            <choice>
+                <element label="Assigned" sequence="0" value="assigned"/>
+                <element label="Pending" sequence="1" value="pending"/>
+                <element label="Closed" sequence="2" value="closed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requestor Last Name" max_length="128" name="u_rquestor_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CPC Practice Site Name" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requestor Legal Business Name" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="TIN Submitted as Unregistered GPRO" mandatory="true" max_length="3" name="u_string_4" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Billing/Primary TIN" mandatory="true" max_length="9" name="u_string_5" type="string"/>
+    </element>
+</database>

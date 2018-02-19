@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_program_year" table="x_183573_irrma_irrma" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_program_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2017</label>
+            <language>en</language>
+            <name>x_183573_irrma_irrma</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-28 18:35:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5232ebb5db530300696f5ff0cf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-28 18:35:39</sys_updated_on>
+            <value>2017</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_program_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2018</label>
+            <language>en</language>
+            <name>x_183573_irrma_irrma</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-28 18:35:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9232ebb5db530300696f5ff0cf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-28 18:35:39</sys_updated_on>
+            <value>2018</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_program_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2019</label>
+            <language>en</language>
+            <name>x_183573_irrma_irrma</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-28 18:35:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1232ebb5db530300696f5ff0cf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-28 18:35:39</sys_updated_on>
+            <value>2019</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_program_year</element>
+            <name>x_183573_irrma_irrma</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-28 18:35:39</sys_created_on>
+            <sys_id>5e32ebb5db530300696f5ff0cf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_program_year</sys_name>
+            <sys_package display_value="IRRMA" source="x_183573_irrma">85bf433ddb130300696f5ff0cf9619e2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IRRMA">85bf433ddb130300696f5ff0cf9619e2</sys_scope>
+            <sys_update_name>sys_choice_x_183573_irrma_irrma_u_program_year</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-28 18:35:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

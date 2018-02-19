@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2018-01-04 18:29:47</change_date>
+        <changed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</changed_by>
+        <content display_value="Mobile UI Obfuscation">6686125adb580300f3b3546fdf9619ea</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-04 18:29:47</sys_created_on>
+        <sys_id>ac046f84db230300696f5ff0cf961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2018-01-04 18:29:47</sys_name>
+        <sys_package display_value="IRRMA" source="x_183573_irrma">85bf433ddb130300696f5ff0cf9619e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IRRMA">85bf433ddb130300696f5ff0cf9619e2</sys_scope>
+        <sys_update_name>gsw_change_log_ac046f84db230300696f5ff0cf961985</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-04 18:29:47</sys_updated_on>
+        <type>4</type>
+    </gsw_change_log>
+</record_update>
